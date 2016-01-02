@@ -8,4 +8,104 @@
     <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU, KeyCode::OPTION_L, KeyCode::JIS_EISUU</autogen>
   </item>
 
+  <item>
+    <name>Ctrl+j KANA</name>
+    <identifier>private.ctrl_c</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::C, ModifierFlag::CONTROL_L,
+      KeyCode::JIS_KANA,
+    </autogen>
+  </item>
+
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_Emacs</name>
+    <url type="file">/Applications/Emacs.app</url>
+  </vkopenurldef>
+
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_GoogleChrome</name>
+    <url type="file">/Applications/Google Chrome.app</url>
+  </vkopenurldef>
+
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_Terminal</name>
+    <url type="file">/Applications/Utilities/Terminal.app</url>
+  </vkopenurldef>
+
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_IntelliJ_IDEA</name>
+    <url type="file">/Applications/IntelliJ IDEA 15 CE.app</url>
+  </vkopenurldef>
+
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_FireFox</name>
+    <url type="file">/Applications/FireFox.app</url>
+  </vkopenurldef>
+
+  <item>
+    <name>Open Emacs</name>
+    <identifier>private.command_d</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::D, ModifierFlag::COMMAND_R,
+      KeyCode::VK_OPEN_URL_APP_Emacs,
+    </autogen>
+  </item>
+
+  <item>
+    <name>Open Terminal</name>
+    <identifier>private.control_q</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::Q, ModifierFlag::CONTROL_L,
+      KeyCode::VK_OPEN_URL_APP_Terminal,
+    </autogen>
+  </item>
+
+  <item>
+    <name>Open Browser</name>
+    <identifier>private.command_m</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::M, ModifierFlag::COMMAND_R,
+      KeyCode::VK_OPEN_URL_APP_GoogleChrome,
+    </autogen>
+  </item>
+
+  <item>
+    <name>Open SubBrowser</name>
+    <identifier>private.command_z</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::Z, ModifierFlag::COMMAND_R,
+      KeyCode::VK_OPEN_URL_APP_FireFox,
+    </autogen>
+  </item>
+
+  <item>
+    <name>Open IntelliJ IDEA</name>
+    <identifier>private.command_q</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::X, ModifierFlag::COMMAND_R,
+      KeyCode::VK_OPEN_URL_APP_IntelliJ_IDEA,
+    </autogen>
+  </item>
+
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_yoruFukurou</name>
+    <url type="file">/Applications/yoruFukurou.app</url>
+  </vkopenurldef>
+
+  <item>
+    <name>Open Yorufukuro</name>
+    <identifier>private.command_c</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::C, ModifierFlag::COMMAND_R,
+      KeyCode::VK_OPEN_URL_APP_yoruFukurou,
+    </autogen>
+  </item>
+
 </root>
