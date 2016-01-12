@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<root>
+
+  <item>
+    <name>EISUU to Option_L</name>
+    <appendix>(+ When you type EISUU only, send EISUU)</appendix>
+    <identifier>remap.jis_eisuu2optionL_eisuu</identifier>
+    <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU, KeyCode::OPTION_L, KeyCode::JIS_EISUU</autogen>
+  </item>
+
+</root>
