@@ -17,6 +17,14 @@
       KeyCode::JIS_KANA,
     </autogen>
   </item>
+  
+  <item>
+    <name>Right_CMD to EISUU + ESC</name>
+    <appendix>(+ When you type CMD only, send CMD)</appendix>
+    <identifier>remap.l_cmd2ESC_with_eisuu</identifier>
+    <autogen>__KeyOverlaidModifier__ KeyCode::COMMAND_L, KeyCode::COMMAND_L, KeyCode::JIS_EISUU, KeyCode::ESCAPE</autogen>
+  </item>
+
 
   <vkopenurldef>
     <name>KeyCode::VK_OPEN_URL_APP_Emacs</name>
